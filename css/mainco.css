@@ -1,0 +1,156 @@
+  header {
+    background-color: rgb(242, 242, 242);
+    display: block;
+    width: 100%auto;
+    height: 5.5em;
+    }
+  .container {
+    width: 80%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: red;
+    }
+    #logo {
+      transform: scale(0.2);
+      margin-left: -9em;
+      }
+    #search {
+      transform: scale(0.4);
+      float: right;
+      padding-right: 25px;
+    }
+
+    .col1 {
+      display: block;
+      width: 20%;
+      float:left;
+    }
+
+    .col2{
+      width:60%;
+      float:left;
+    }
+
+    .col2 > div {
+      display:inline-block;
+    }
+
+    .col3{
+      display: block;
+      width:20%;
+      float:right;
+      padding-top: 14px;
+    }
+    .transp {
+        width: 80%;
+        height: 5.25em;
+        margin: 0 auto;
+        background-color: rgb(242, 242, 242);
+    }
+    .home {
+      color: red;
+      margin-right: 1px;
+      padding-left: 15px;
+      padding-top: 33px;
+      }
+    .portfolio {
+      color: black;
+      margin-right: 1px;
+      padding-left: 15px;
+      padding-top: 33px;
+      }
+    .about {
+      color: black;
+      margin-right: 1px;
+      padding-left: 15px;
+      padding-top: 33px;
+      }
+    .contact {
+      color: black;
+      margin-right: 1px;
+      padding-left: 15px;
+      padding-top: 33px;
+      }
+    .detb {
+      background-color: transparent;
+      color: rgb(74, 74, 74);
+      padding-top: 60px;
+      width: 100%;
+      font-size: 1.75em;
+      }
+    .vertical-container {
+      height: 0%;
+      display: -webkit-flex;
+      display:         flex;
+      -webkit-align-items: center;
+              align-items: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+      }
+      .detb2 {
+        background-color: transparent;
+        color: rgb(74, 74, 74);
+        padding-top: 27px;
+        width: 100%;
+        font-size: 0.75em;
+        }
+      .detb3 {
+        background-color: transparent;
+        color: rgb(74, 74, 74);
+        padding-top: 15px;
+        width: 100%;
+        font-size: 0.75em;
+        }
+      .a1 {
+
+        display: flex;
+
+  	    background-color: black;
+  	    height: 300px;
+  	    width: 600px;
+        }
+      .a2 {
+
+        display: flex;
+
+  	    background-color: black;
+  	    height: 100px;
+  	    width: 150px;
+        }
+      .a3 {
+
+        display: flex;
+
+  	    background-color: black;
+  	    height: 67px;
+  	    width: 150px;
+        }
+      .b1 {
+
+        display: flex;
+
+  	    background-color: black;
+  	    height: 100px;
+  	    width: 150px;
+        }
+      .b2 {
+
+        display: flex;
+        justify-content:center;
+  	    background-color: black;
+  	    height: 150px;
+  	    width: 125.5px;
+        }
+        .vertical-container2 {
+          height: 100%;
+          display: -webkit-flex;
+          display:         flex;
+          -webkit-align-items: center;
+                  align-items: center;
+          -webkit-justify-content: center;
+                  justify-content: center;
+      /*flex-container {
+      	display: flex;
+  	    flex-flow: row wrap;
+  	    justify-content: space-around;
+  	    }*/
